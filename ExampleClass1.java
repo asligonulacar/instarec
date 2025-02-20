@@ -372,7 +372,7 @@ public class ExampleClass1 {
 
           pindex = partout.getShort(0, i);
           status = trackbank.getShort(0, pindex);
-          component = partout.getDouble(29, i);
+          component = partout.getShort(29, i);
           time = partout.getDouble(28, i);
           sector = FTOFclusters.getShort(1, pindex);
           //System.out.println("Time= " + time);
